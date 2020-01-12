@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Document        
+        link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/icon?family=Material+Icons") 
+
+        link(rel="stylesheet", href="style.css")   
+    body
+
+        header  
+            h1 This is a page in pug    
+            h2 This pague use bootstrap  
+            p and sass winth varables of color
+            i.material-icons.abajo
+                | keyboard_arrow_down
+
+        section.section
+            h1 Converter tool
+                .container
+                    iframe.codeconverter(src="pugconverte.html", frameborder="0")
+
+        .container.component
+            h1.tittle Pug and boostrap
+            h2.subtittle This is a sow beautifull convination
+            a.lpc(href="https://getbootstrap.com/docs/4.4/components/alerts/")
+                .lpcb Bootsrap components
+                
+
+        .parrallax1
+            h1 The speed is money
+
+        section.section
+
+            h1 Features
+            .container
+                .row.featuresrow
+                    .col
+                        i.material-icons.abajo
+                            | speed
+                        p.tittlearticle Speed Code
+                        p.article Lorem ipsum dolor sit amet consectetur adipiscing, elit aptent proin
+
+                    .col
+                        i.material-icons.abajo
+                            | code
+                        p.tittlearticle Clear
+                        p.article Lorem ipsum dolor sit amet consectetur adipiscing, elit aptent proin
+
+                    .col
+                        i.material-icons.abajo
+                            | done
+                        p.tittlearticle Smart compile
+                        p.article Lorem ipsum dolor sit amet consectetur adipiscing, elit aptent proin
+
+                .row.featuresrow
+                    .col
+                        i.material-icons.abajo
+                            | get_app
+                        p.tittlearticle Bootstrap
+                        p.article Lorem ipsum dolor sit amet consectetur adipiscing, elit aptent proin
+
+                    .col
+                        i.material-icons.abajo
+                            | get_app
+                        p.tittlearticle Pug
+                        p.article Lorem ipsum dolor sit amet consectetur adipiscing, elit aptent proin
+
+                    .col
+                        i.material-icons.abajo
+                            | get_app
+                        p.tittlearticle Sass
+                        p.article Lorem ipsum dolor sit amet consectetur adipiscing, elit aptent proin
+
+
+        section.section
+            h1 Documentation    
+            .container
+                .row.rc
+                    .col.dc
+                        a.ldoc(href="https://getbootstrap.com/docs/4.3/getting-started/introduction/")
+                            .lcdoc Boostrap
+                    
+                    .col.dc
+                        a.ldoc(href="https://pugjs.org/api/getting-started.html")
+                            .lcdoc Pug
+        
+
